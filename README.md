@@ -6,6 +6,7 @@ I use Uipath as a tool for RPA implementation.
 in Taiwan. The result was stored at 591rent.xlsx.
 
 SalarySlip_Automation-Use Email automation technique. It automated the email sending is very useful for HR.
+
 Email Lists.xlsx contain the receiver information.
 mailTemplate.txt contain the body of the mail information.
 Attachments contain the Salary Slips.
