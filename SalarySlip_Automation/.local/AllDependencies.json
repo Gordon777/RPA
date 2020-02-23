@@ -121,19 +121,6 @@
           "lib/Interop.Domino.dll": {}
         }
       },
-      "Microsoft.Activities.Extensions/2.0.6.9": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.Activities"
-        ],
-        "compile": {
-          "lib/Net45/_._": {}
-        },
-        "runtime": {
-          "lib/Net45/Microsoft.Activities.Extensions.Design.dll": {},
-          "lib/Net45/Microsoft.Activities.Extensions.dll": {}
-        }
-      },
       "Microsoft.AspNet.SignalR.Client/2.4.0": {
         "type": "package",
         "dependencies": {
@@ -978,27 +965,6 @@
         "lib/Interop.Domino.dll"
       ]
     },
-    "Microsoft.Activities.Extensions/2.0.6.9": {
-      "sha512": "yGwK3gYUzzGIzgybBtXsCbcWIj+Dv+gadnaWkmG0WpBs22AV8ZS7deFhAb2pznDoGz0Pj4M7Tt9RwK9VrNzf4A==",
-      "type": "package",
-      "path": "microsoft.activities.extensions/2.0.6.9",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        "help/Microsoft.Activities.Extensions Documentation.chm",
-        "lib/Net40/Microsoft.Activities.Extensions.Design.dll",
-        "lib/Net40/Microsoft.Activities.Extensions.dll",
-        "lib/Net401/Microsoft.Activities.Extensions.Design.dll",
-        "lib/Net401/Microsoft.Activities.Extensions.dll",
-        "lib/Net45/Microsoft.Activities.Extensions.Design.dll",
-        "lib/Net45/Microsoft.Activities.Extensions.dll",
-        "microsoft.activities.extensions.2.0.6.9.nupkg.sha512",
-        "microsoft.activities.extensions.nuspec",
-        "tools/Microsoft.Activities.Extensions.NuGet.dll",
-        "tools/install.ps1",
-        "tools/uninstall.ps1"
-      ]
-    },
     "Microsoft.AspNet.SignalR.Client/2.4.0": {
       "sha512": "xGoQq9dEsBU49U1Whl0To2JyRQePmo8ayYS8VNruLlQaX+fQBzYyLJeMlW9r7mlt8Vc9JP+083m9pKrfYpdDbg==",
       "type": "package",
@@ -1422,6 +1388,8 @@
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "AllDependencies.json",
+        "UiAutomationActivities.nuget.props",
         "build/ActiproSoftware.DataGrid.Contrib.Wpf.dll",
         "build/ActiproSoftware.Docking.Wpf.dll",
         "build/ActiproSoftware.Editors.Wpf.dll",
@@ -1558,6 +1526,7 @@
         "lib/net461/zh-CN/UiPath.UIAutomation.Activities.Design.resources.dll",
         "lib/net461/zh-CN/UiPath.UiAutomation.Activities.resources.dll",
         "lib/net461/zh-CN/UiPath.Wizards.resources.dll",
+        "nuget.cache",
         "uipath.uiautomation.activities.20.2.0-preview.nupkg.sha512",
         "uipath.uiautomation.activities.nuspec"
       ]
@@ -1634,7 +1603,6 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
-      "Microsoft.Activities.Extensions >= 2.0.6.9 <= 2.0.6.9",
       "UiPath.Excel.Activities >= 2.8.1-preview <= 2.8.1-preview",
       "UiPath.Mail.Activities >= 1.8.1-preview <= 1.8.1-preview",
       "UiPath.System.Activities >= 20.2.0-preview <= 20.2.0-preview",
@@ -1646,20 +1614,15 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "Slip_Automation",
-      "projectName": "Slip_Automation",
-      "projectPath": "C:\\Users\\IDEA3C\\Desktop\\RPA\\Slip_Automation\\.local",
+      "projectUniqueName": "UI-Path-Automation--master",
+      "projectName": "UI-Path-Automation--master",
+      "projectPath": "C:\\Users\\IDEA3C\\Desktop\\UI-Path-Automation--master\\.local",
       "packagesPath": "C:\\Users\\IDEA3C\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\IDEA3C\\Desktop\\RPA\\Slip_Automation\\.local"
+      "outputPath": "C:\\Users\\IDEA3C\\Desktop\\UI-Path-Automation--master\\.local"
     },
     "frameworks": {
       "net461": {
         "dependencies": {
-          "Microsoft.Activities.Extensions": {
-            "include": "Runtime",
-            "target": "Package",
-            "version": "[2.0.6.9, 2.0.6.9]"
-          },
           "UiPath.Excel.Activities": {
             "include": "Runtime",
             "target": "Package",

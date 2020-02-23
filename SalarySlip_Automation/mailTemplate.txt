@@ -1,0 +1,7 @@
+Hi {0},
+
+Please see attached Salary Slip of Month {1}.
+
+Thank You!
+UiPathRPA
+

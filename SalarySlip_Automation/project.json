@@ -1,9 +1,8 @@
 {
-  "name": "Slip_Automation",
-  "description": "Another kind of Email Automation. It's very useful for HR.",
-  "main": "Main.xaml",
+  "name": "UI-Path-Automation--master",
+  "description": "Blank Process",
+  "main": "sendEmail.xaml",
   "dependencies": {
-    "Microsoft.Activities.Extensions": "[2.0.6.9]",
     "UiPath.Excel.Activities": "[2.8.1-preview]",
     "UiPath.Mail.Activities": "[1.8.1-preview]",
     "UiPath.System.Activities": "[20.2.0-preview]",
