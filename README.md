@@ -11,4 +11,7 @@ Email Lists.xlsx contain the receiver information.
 mailTemplate.txt contain the body of the mail information.
 Attachments contain the Salary Slips.
 
+Result_Automation
+conbine the web scrapping and email automation technique.
+
 ![picture](Result_Automation.JPG)
