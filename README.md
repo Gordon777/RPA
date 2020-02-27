@@ -12,6 +12,6 @@ mailTemplate.txt contain the body of the mail information.
 Attachments contain the Salary Slips.
 
 Result_Automation
-conbine the web scrapping and email automation technique.
+conbine the web scrapping and email automation technique. The sequence of the app show as below.
 
 ![picture](Result_Automation.JPG)
