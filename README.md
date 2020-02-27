@@ -10,3 +10,5 @@ SalarySlip_Automation-Use Email automation technique. It automated the email sen
 Email Lists.xlsx contain the receiver information.
 mailTemplate.txt contain the body of the mail information.
 Attachments contain the Salary Slips.
+
+![picture](Result_Automation.JPG)
